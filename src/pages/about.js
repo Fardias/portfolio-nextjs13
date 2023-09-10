@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -9,7 +10,7 @@ export default function About() {
       </Head>
 
       <div className="mb-3 mx-auto md:hidden">
-        <img src="/poto/freya2.jpeg" alt="freya" width={100} />
+        <Image src="/poto/freya2.jpeg" alt="freya" width={100} height={100} />
       </div>
 
       <div className="flex flex-col space-y-4">
@@ -29,7 +30,7 @@ export default function About() {
       </div>
 
       <div className="hidden md:block">
-        <img src="/poto/freya2.jpeg" alt="freya" />
+        <Image src="/poto/freya2.jpeg" alt="freya" width={100} height={100}/>
       </div>
     </div>
   );

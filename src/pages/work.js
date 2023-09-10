@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Work() {
   return (
@@ -10,22 +11,26 @@ export default function Work() {
 
       <figure className="flex gap-3">
         <div className="h-[300px] w-[200px]  rounded-xl overflow-hidden">
-          <img
+          <Image
             className="h-[300px] object-cover items-center"
             src="/poto/1.jpeg"
             alt="freya"
+            width={200}
+            height={300}
           />
         </div>
         <div className=" h-[300px] w-full flex flex-col justify-around gap-3 ">
-          <img
+          <Image
             className="h-[300px] object-cover items-center rounded-xl overflow-hidden"
             src="/poto/2.jpeg"
             alt="freya"
+            width={200} height={100}
           />
-          <img
+          <Image
             className="h-[120px] object-cover items-center rounded-xl overflow-hidden"
             src="/poto/3.jpeg"
             alt="freya"
+            width={200} height={100}
           />
         </div>
       </figure>
