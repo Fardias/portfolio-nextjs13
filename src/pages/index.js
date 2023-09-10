@@ -1,8 +1,14 @@
+import Head from "next/head";
 import Link from "next/link";
 
 export default function Home() {
   return (
      <div className="container mx-auto flex flex-col space-x-1 py-5 items-center text-center md:flex-row md:text-start">
+
+      <Head>
+        <title>Home - Faralf Portfolio</title>
+        <meta name="description" content="Home" />
+      </Head>
 
       <div className="mb-3 mx-auto md:hidden">
         <img src="/poto/freya.jpeg" alt="freya" width={100} />

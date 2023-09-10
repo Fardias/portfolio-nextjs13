@@ -1,14 +1,21 @@
+import Head from "next/head";
 
 export default function About() {
   return (
-     <div className="container mx-auto flex flex-col space-x-1 py-5 items-center text-center md:flex-row md:text-start">
+    <div className="container mx-auto flex flex-col space-x-1 py-5 items-center text-center md:flex-row md:text-start">
+      <Head>
+        <title>About - Faralf Portfolio</title>
+        <meta name="description" content="About" />
+      </Head>
 
       <div className="mb-3 mx-auto md:hidden">
         <img src="/poto/freya2.jpeg" alt="freya" width={100} />
       </div>
 
       <div className="flex flex-col space-y-4">
-        <h1 className="md:text-4xl text-xl mt-3 font-bold">Frontend Developer</h1>
+        <h1 className="md:text-4xl text-xl mt-3 font-bold">
+          Frontend Developer
+        </h1>
         <div className="flex flex-col space-y-3">
           <div className="pb-3 md:w-[80%]">
             <p className="text-sm font-light">

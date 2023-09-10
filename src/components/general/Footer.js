@@ -15,8 +15,8 @@ export default function Footer(){
           link: "/work",
         },
         {
-          name: "Hobby",
-          link: "/hobby",
+          name: "Testimoni",
+          link: "/testimoni",
         },
       ];
     return(
