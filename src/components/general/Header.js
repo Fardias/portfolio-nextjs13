@@ -46,7 +46,7 @@ export default function Header() {
   return (
     <>
       <header className="container mx-auto flex justify-between py-5 mb-3 border-b-2 border-b-slate-400 items-center">
-        <div className="logo">FARALF</div>
+        <div className="logo md:text-2xl lg:text-3xl md:font-bold">FARALF</div>
         <div className="space-x-5">
           <Link href="/contact" className="border-2 border-slate-400 px-3 py-1 md:hidden">
             Contact
@@ -54,7 +54,7 @@ export default function Header() {
           <i onClick={handleNav} class="ri-menu-fill md:hidden"></i>
         </div>
 
-        <ul className="md:flex gap-5 font-light hidden">
+        <ul className="md:flex gap-5 font-light hidden xl:text-lg">
           {menus.map((menu, index) => (
             <li className="hover:opacity-70" key={index}>
               <Link href={menu.link}>{menu.name}</Link>
@@ -85,7 +85,7 @@ export default function Header() {
         {/* mobile link */}
 
         <div className="md:block hidden">
-          <Link href="/contact" className="border-2 border-slate-400 px-3 py-1">
+          <Link href="/contact" className="border-2 border-slate-400 px-3 py-1 xl:text-lg">
             Contact
           </Link>
         </div>

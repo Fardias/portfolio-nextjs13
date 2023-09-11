@@ -18,7 +18,7 @@ export default function Testimoni() {
         />
       </div>
 
-      <div className="absolute p-3 bg-slate-500 rounded-xl text-[14px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-80">
+      <div className="absolute p-3 bg-slate-500 rounded-xl text-[14px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-80 xl:w-[500px]">
         <h1 className="">
           Dia sangat baik dalam membangun sebuah website dan juga dia sangat
           ramah, aku sangat senang bisa menggunakan jasa dari Fardias

@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <div className="mb-3 mx-auto md:hidden">
-        <Image src="/poto/freya.jpeg" alt="freya" width={100} height={100}/>
+        <Image src="/poto/freya.jpeg" alt="freya" width={100} height={100}  className="rounded-xl"/>
       </div>
 
       <div className="flex flex-col space-y-4">
@@ -31,13 +31,11 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <Link className="border-2 w-fit p-2 md:p-4 mx-auto md:mx-0" href="/">
-          Get In Touch
-        </Link>
+        
       </div>
 
       <div className="hidden md:block">
-        <Image src="/poto/freya.jpeg" alt="freya" width={100} height={100}/>
+        <Image src="/poto/freya.jpeg" alt="freya" width={100} height={100} className="md:w-[500px] rounded-xl"/>
       </div>
     </div>
   );

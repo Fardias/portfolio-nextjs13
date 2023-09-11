@@ -14,15 +14,20 @@ export default function Contact() {
           See Me On Social Media
         </h1>
         <div className="md:text-4xl text-2xl mt-3 space-x-5">
-          <i class="ri-instagram-line">
-            <a href="/" target="_blank" />
-          </i>
-          <i class="ri-youtube-line">
-            <a href="/" target="_blank" />
-          </i>
-          <i class="ri-tiktok-line">
-            <a href="/" target="_blank" />
-          </i>
+          
+            <Link href="https://www.instagram.com/fardias1/" target="_blank">
+            <i class="ri-instagram-line hover:opacity-50"></i>
+            </Link>
+
+            <Link href="https://www.youtube.com/channel/UCNMDs8I8XXu69Sie2zL1Qvg"
+              target="_blank">
+            <i class="ri-youtube-line hover:opacity-50"></i>
+            </Link>
+
+            <Link href="https://www.tiktok.com/@diasfathan" target="_blank">
+            <i class="ri-tiktok-line hover:opacity-50"></i>
+            </Link>
+          
         </div>
 
         <div className="mt-7">
@@ -65,10 +70,7 @@ export default function Contact() {
             />
 
             <br />
-            <button
-          
-              className="border-2 border-slate-400 px-3 py-1 mt-2 text-center rounded-lg"
-            >
+            <button className="border-2 border-slate-400 px-3 py-1 mt-2 text-center rounded-lg">
               Submit
             </button>
           </form>

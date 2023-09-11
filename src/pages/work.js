@@ -10,9 +10,9 @@ export default function Work() {
       </Head>
 
       <figure className="flex gap-3">
-        <div className="h-[300px] w-[200px]  rounded-xl overflow-hidden">
+        <div className="h-[300px] w-[200px] xl:w-[500px]  rounded-xl overflow-hidden">
           <Image
-            className="h-[300px] object-cover items-center"
+            className="h-[300px] object-cover items-center xl:w-[500px]"
             src="/poto/1.jpeg"
             alt="freya"
             width={200}
@@ -21,13 +21,13 @@ export default function Work() {
         </div>
         <div className=" h-[300px] w-full flex flex-col justify-around gap-3 ">
           <Image
-            className="h-[300px] object-cover items-center rounded-xl overflow-hidden"
+            className="h-[300px] object-cover items-center rounded-xl overflow-hidden xl:w-[500px]"
             src="/poto/2.jpeg"
             alt="freya"
             width={200} height={100}
           />
           <Image
-            className="h-[120px] object-cover items-center rounded-xl overflow-hidden"
+            className="h-[120px] object-cover items-center rounded-xl overflow-hidden xl:w-[500px]"
             src="/poto/3.jpeg"
             alt="freya"
             width={200} height={100}
