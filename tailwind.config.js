@@ -20,6 +20,10 @@ module.exports = {
           "0%,20%,40%,50%, 100%": { transform: "translateY(100%)" },
         },
       },
+      colors: {
+        colorBg: "#053B50",
+        colorText: "#EEEEEE",
+      }
     },
   },
   plugins: [],

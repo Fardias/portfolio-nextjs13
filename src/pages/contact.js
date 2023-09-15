@@ -3,37 +3,42 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div className="container py-5">
+    <div className="container py-5 mx-auto">
       <Head>
         <title>Contact - Faralf Portfolio</title>
         <meta name="description" content="Contact" />
       </Head>
 
-      <div>
-        <h1 className="md:text-4xl text-xl font-bold">
-          See Me On Social Media
-        </h1>
-        <div className="md:text-4xl text-2xl mt-3 space-x-5">
-          
+      <div className="mx-auto">
+        <div className="text-center">
+          <h1 className="md:text-4xl text-xl font-bold">
+            See Me On Social Media
+          </h1>
+          <div className="md:text-4xl text-2xl mt-3 space-x-5">
             <Link href="https://www.instagram.com/fardias1/" target="_blank">
-            <i class="ri-instagram-line hover:opacity-50"></i>
+              <i class="ri-instagram-line hover:opacity-50"></i>
             </Link>
 
-            <Link href="https://www.youtube.com/channel/UCNMDs8I8XXu69Sie2zL1Qvg"
-              target="_blank">
-            <i class="ri-youtube-line hover:opacity-50"></i>
+            <Link
+              href="https://www.youtube.com/channel/UCNMDs8I8XXu69Sie2zL1Qvg"
+              target="_blank"
+            >
+              <i class="ri-youtube-line hover:opacity-50"></i>
             </Link>
 
             <Link href="https://www.tiktok.com/@diasfathan" target="_blank">
-            <i class="ri-tiktok-line hover:opacity-50"></i>
+              <i class="ri-tiktok-line hover:opacity-50"></i>
             </Link>
-          
+          </div>
         </div>
 
-        <div className="mt-7">
-          <h1 className="md:text-4xl text-xl font-bold mb-3">Any Question ?</h1>
+        <div className="md:mt-10 mt-7">
+          <h1 className="md:text-4xl text-xl font-bold mb-3 text-center">Any Question ?</h1>
 
-          <form className="flex flex-col" onSubmit={(e) => alert("Thanks")}>
+          <form
+            className="flex flex-col md:max-w-md mx-auto"
+            onSubmit={(e) => alert("Thanks")}
+          >
             <label htmlFor="name">Name</label>
 
             <input

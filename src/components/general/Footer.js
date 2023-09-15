@@ -21,14 +21,14 @@ export default function Footer(){
       ];
     return(
         <footer className="container mx-auto border-t-2 border-t-slate-400 py-5 mt-10 flex font-light flex-col items-center justify-center text-center space-y-5 md:flex-row md:space-y-0">
-            <ul className="flex gap-5 ">
+            {/* <ul className="flex gap-5 ">
             {menus.map((menu, index) => (
           <li key={index}>
             <Link href={menu.link}>{menu.name}</Link>
           </li>
         ))}
-            </ul>
-            <div className="md:ml-auto text-center"><h1>Copyright © 2023</h1></div>
+            </ul> */}
+            <div className="text-center"><h1>Made with ❤️ Copyright © 2023</h1></div>
         </footer>
     )
 }
